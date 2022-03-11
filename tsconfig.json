@@ -30,10 +30,16 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "story/**/*.ts",
+    "story/**/*.tsx",
+    "story/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": false
+  }
 }
